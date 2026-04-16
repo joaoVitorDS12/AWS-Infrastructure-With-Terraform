@@ -3,3 +3,5 @@
 *.tfstate.backup
 aws-key
 aws-key.pub
+aws-key-ci
+aws-key-ci.pub

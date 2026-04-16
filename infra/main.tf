@@ -51,8 +51,8 @@ resource "aws_instance" "web" {
 }
 
 resource "aws_key_pair" "deployer" {
-  key_name   = "aws-key"
-  public_key = file("../aws-key.pub")
+  key_name   = "aws-key-ci"
+  public_key = file("../aws-key-ci.pub")
 }
 
 output "public_ip" {
