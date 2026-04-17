@@ -18,6 +18,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /var/www/html/aws-project-training || git clone https://github.com/joaoVitorDS12/aws-project-training.git /var/www/html/aws-project-training
+            git config --global --add safe.directory /var/www/html/aws-project-training
             cd /var/www/html/aws-project-training
             git pull origin main
             sudo cp app/index.html /var/www/html/index.html
