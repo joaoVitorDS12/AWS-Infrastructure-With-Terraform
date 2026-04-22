@@ -5,9 +5,7 @@ export default function CursoDevPage() {
     <main className="max-w-4xl mx-auto px-6 py-16 space-y-12">
       {/* Título */}
       <section>
-        <h1 className="text-3xl font-bold mb-4">
-          Plataforma Backend Completa (curso.dev)
-        </h1>
+        <h1 className="text-3xl font-bold mb-4">Plataforma Backend Completa</h1>
 
         <p className="text-zinc-400">
           Projeto completo focado no desenvolvimento de uma API robusta,
